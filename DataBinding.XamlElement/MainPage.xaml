@@ -33,7 +33,7 @@
             <Label
         Text="Esto es lo que escribiste:"/>
             <Label
-    Text="Aquí se va a ver lo que escribiste"
+    Text="{Binding Source={x:Reference TextEntry}, Path=Text}"
     HorizontalOptions="Center"
     FontSize="Medium"
     FontAttributes="Italic"
