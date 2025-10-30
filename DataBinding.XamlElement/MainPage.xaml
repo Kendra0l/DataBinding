@@ -6,7 +6,7 @@
     <Grid
         RowDefinitions="Auto,*"
         Padding="24"
-        RowSpacing="24">
+        RowSpacing="8">
 
         <Grid
             Grid.Row="0"
@@ -21,9 +21,9 @@
             <Entry
                 Grid.Row="0"
                 Grid.Column="1"
-                BackgroundColor="LightGray"
-                TextChanged="Entry_TextChanged"
-                x:Name="TextEntry"/>
+                BackgroundColor="LightGray"/>
+
+          
 
         </Grid>
 
@@ -33,7 +33,7 @@
             <Label
         Text="Esto es lo que escribiste:"/>
             <Label
-    Text="{Binding Source={x:Reference TextEntry}, Path=Text}"
+    Text="Aquí se va ver lo que escribas"
     HorizontalOptions="Center"
     FontSize="Medium"
     FontAttributes="Italic"
