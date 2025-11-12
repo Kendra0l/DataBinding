@@ -6,7 +6,7 @@
     <Grid
         RowDefinitions="Auto,*"
         Padding="24"
-        RowSpacing="24">
+        RowSpacing="8">
 
         <Grid
             Grid.Row="0"
@@ -22,22 +22,24 @@
                 Grid.Row="0"
                 Grid.Column="1"
                 BackgroundColor="LightGray"
-                TextChanged="Entry_TextChanged"
+               
                 x:Name="TextEntry"/>
+
+          
 
         </Grid>
 
         <VerticalStackLayout
-    Grid.Row="1"
-    Grid.Column="0">
+            Grid.Row="1"
+            Grid.Column="0">
             <Label
-        Text="Esto es lo que escribiste:"/>
+            Text="Esto es lo que escribiste:"/>
             <Label
-    Text="{Binding Source={x:Reference TextEntry}, Path=Text}"
-    HorizontalOptions="Center"
-    FontSize="Medium"
-    FontAttributes="Italic"
-        x:Name="EnteredTextLabel"/>
+            Text="{Binding Source={x:Reference TextEntry},Path=Text}"
+            HorizontalOptions="Center"
+            FontSize="Medium"
+            FontAttributes="Italic"/>
+            
         </VerticalStackLayout>
 
     </Grid>

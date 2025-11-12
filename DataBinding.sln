@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBindingDatObject", "DataBindingDatObject\DataBindingDatObject.csproj", "{EA94BAE6-CBDF-4A51-8D7F-299D9FCB6C08}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding.XamlElement", "DataBinding.XamlElement\DataBinding.XamlElement.csproj", "{507403CD-97AE-403F-AAD9-11DE768729A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBindingColeccion", "DataBindingColeccion\DataBindingColeccion.csproj", "{E8A847F8-AE59-4B15-A07E-8041D67B636F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,12 @@ Global
 		{507403CD-97AE-403F-AAD9-11DE768729A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{507403CD-97AE-403F-AAD9-11DE768729A3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{507403CD-97AE-403F-AAD9-11DE768729A3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E8A847F8-AE59-4B15-A07E-8041D67B636F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A847F8-AE59-4B15-A07E-8041D67B636F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A847F8-AE59-4B15-A07E-8041D67B636F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E8A847F8-AE59-4B15-A07E-8041D67B636F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A847F8-AE59-4B15-A07E-8041D67B636F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A847F8-AE59-4B15-A07E-8041D67B636F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
